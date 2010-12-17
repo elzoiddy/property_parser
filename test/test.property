@@ -1,0 +1,26 @@
+# test file for poor mans java property parser
+#TEST_COMMENT1 = 1
+!TEST_COMMENT2 = 2
+
+TEST.PROPERTY_1_NAME=test.prop_1.value
+TEST.PROPERTY_2_NAME:test.prop_2.value
+
+TEST.PROPERTY_3_NAME = test.prop_3.value
+TEST.PROPERTY_4_NAME : test.prop_4.value
+
+TEST.PROPERTY_5_NAME =                  test.prop_5.value
+TEST.PROPERTY_6_NAME :                  test.prop_6.value
+
+# TEST_COMMENT3 = 3
+! TEST_COMMENT4 : 4
+
+TEST.PROPERTY_7_NAME:#test prop_7 value!
+TEST.PROPERTY_8_NAME=#test prop_8 value!
+
+TEST.PROPERTY#9_NAME!: #test prop_9 value!
+TEST.PROPERTY#10_NAME! = #test prop_10 value!
+
+TEST.PROPERTY_11_NAME:
+TEST.PROPERTY_12_NAME
+ 
+ 

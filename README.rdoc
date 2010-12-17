@@ -1,6 +1,6 @@
 = property_parser
 
-Description goes here.
+Parses java property files in ruby.
 
 == Contributing to property_parser
  
