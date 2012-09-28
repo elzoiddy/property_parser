@@ -2,6 +2,24 @@
 
 Parses java property files in ruby.
 
+= Installation
+
+== Rails
+
+In your Gemfile add
+
+  gem 'property_parser'
+
+== Usage
+
+Let's say you have a java property file in /etc/myapp/properties/abcd.property
+
+  java_config = PropertyParser.parse("/etc/myapp/properties/abcd.property")    
+
+access your configuration as a regular hash
+
+  java_config["server.host"]
+
 == Contributing to property_parser
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
